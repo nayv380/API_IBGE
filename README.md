@@ -56,7 +56,7 @@ Acesse no navegador:
 
 Abra o link exibido no terminal (geralmente http://localhost:5173).
 ```
-### 2. Entre no Vercel
+### --> Entre no Vercel <--
 * [Clique aqui](https://api-ibge-topaz.vercel.app/)
   
 ### 👩‍💻 Autora: Nayara Ventura Candido 
