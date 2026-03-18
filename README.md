@@ -50,10 +50,11 @@ src/
 npm install
 Inicie o servidor de desenvolvimento:
 
-** Bash
+
 npm run dev
 Acesse no navegador:
 Abra o link exibido no terminal (geralmente http://localhost:5173).
+```
 
 👩‍💻 Autora
 Nayara Ventura Candido 
