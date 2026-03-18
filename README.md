@@ -44,15 +44,16 @@ src/
    ```bash
    git clone [https://github.com/SEU_USUARIO/sistema-ibge.git](https://github.com/SEU_USUARIO/sistema-ibge.git)
 
-** Instale as dependências:
+Instale as dependências:
 
-** Bash
 npm install
+
 Inicie o servidor de desenvolvimento:
 
-
 npm run dev
+
 Acesse no navegador:
+
 Abra o link exibido no terminal (geralmente http://localhost:5173).
 ```
 
