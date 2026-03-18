@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garante que o app ocupe a tela toda e centralize o conteúdo */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;     /* Centraliza Vertical */
+  justify-content: center;  /* Centraliza Horizontal */
+  padding-top: 70px;       /* Altura da Navbar para não cobrir o conteúdo */
+}

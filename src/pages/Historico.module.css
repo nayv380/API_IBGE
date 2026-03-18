@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 650px; /* Um pouco mais largo para o horário respirar */
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  color: #2d3436;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.underline {
+  width: 50px;
+  height: 4px;
+  background: #6c5ce7;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.btnClean {
+  background: #ff7675;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 40px; /* Espaço generoso antes da lista */
+}
+
+.btnClean:hover:not(:disabled) {
+  background: #d63031;
+  transform: translateY(-2px);
+}
+
+.btnClean:disabled {
+  background: #dfe6e9;
+  color: #b2bec3;
+  cursor: not-allowed;
+}
+
+.listWrapper {
+  text-align: left;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between; /* A mágica acontece aqui: Cidade <---> Horário */
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #f1f2f6;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.locationInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cityName {
+  color: #2d3436;
+  font-size: 1.1rem;
+}
+
+.ufTag {
+  color: #6c5ce7;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.timeBadge {
+  background: #f1f2f6;
+  color: #636e72;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  white-space: nowrap; /* Garante que o horário não quebre linha */
+  margin-left: 20px; /* Respiro mínimo caso a cidade tenha nome muito longo */
+}
+
+.empty {
+  text-align: center;
+  color: #b2bec3;
+  font-style: italic;
+}
