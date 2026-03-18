@@ -56,8 +56,9 @@ Acesse no navegador:
 
 Abra o link exibido no terminal (geralmente http://localhost:5173).
 ```
-
-👩‍💻 Autora
-Nayara Ventura Candido 
+### 2. Entre no Vercel
+* [Clique aqui](https://api-ibge-topaz.vercel.app/)
+  
+👩‍💻 Autora: Nayara Ventura Candido 
 
 IFMG 2026
